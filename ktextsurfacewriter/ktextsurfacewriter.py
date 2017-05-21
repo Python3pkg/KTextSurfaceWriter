@@ -170,4 +170,4 @@ class KTextSurfaceWriter(object):
 
 def runTests():
     """Just run the doctest"""
-    import tests
+    from . import tests
